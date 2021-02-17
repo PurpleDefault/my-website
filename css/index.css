@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 720px;
+  margin: auto;
+  color: white;
+  /* Bg CSS */
+  background: #000000;
+  background: -webkit-linear-gradient(to bottom, #434343, #000000);
+  background: linear-gradient(to bottom, #434343, #000000);
+  /* Bg CSS */
+}
+
+/* Links*/
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: orange;
+}
+
+/* Lists */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Flex */
+.flex {
+  display: flex;
+}
+/* Flex */
+
+h1 {
+  text-align: center;
+}
+
+#header {
+  flex-direction: row-reverse;
+  font-size: 1.25rem;
+}
