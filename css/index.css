@@ -40,6 +40,12 @@ h1 {
   text-align: center;
 }
 
+footer {
+  text-align: center;
+  font-size: small;
+  color: orange;
+}
+
 #header {
   flex-direction: row-reverse;
   font-size: 1.25rem;
