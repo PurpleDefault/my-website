@@ -15,11 +15,11 @@ body {
 
 /* Links*/
 a:link {
-  color: orange;
+  color: #103d85;
 }
 
 a:visited {
-  color: orange;
+  color: #103d85;
 }
 
 /* Lists */
@@ -43,7 +43,7 @@ h1 {
 footer {
   text-align: center;
   font-size: small;
-  color: orange;
+  color: #103d85;
 }
 
 #header {
