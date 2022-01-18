@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  max-width: 720px;
+  max-width: 800px;
   margin: auto;
   color: white;
   /* Bg CSS */
@@ -14,12 +14,8 @@ body {
 }
 
 /* Links*/
-a:link {
-  color: #103d85;
-}
-
-a:visited {
-  color: #103d85;
+a:link, a:visited {
+  color: orange;
 }
 
 /* Lists */
@@ -28,7 +24,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-
 
 /* Flex */
 .flex {
@@ -42,8 +37,9 @@ h1 {
 
 footer {
   text-align: center;
+  margin-bottom: 2rem;
   font-size: small;
-  color: #103d85;
+  color: orange;
 }
 
 #header {
