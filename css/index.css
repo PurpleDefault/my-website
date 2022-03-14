@@ -3,19 +3,9 @@ html {
 }
 
 body {
-  max-width: 800px;
+  max-width: 900px;
+  font-size: 1.25rem;
   margin: auto;
-  color: white;
-  /* Bg CSS */
-  background: #000000;
-  background: -webkit-linear-gradient(to bottom, #434343, #000000);
-  background: linear-gradient(to bottom, #434343, #000000);
-  /* Bg CSS */
-}
-
-/* Links*/
-a:link, a:visited {
-  color: orange;
 }
 
 /* Lists */
@@ -31,18 +21,8 @@ ul {
 }
 /* Flex */
 
-h1 {
-  text-align: center;
-}
-
 footer {
   text-align: center;
-  margin-bottom: 3rem;
-  font-size: small;
+  padding: 2rem;
   color: orange;
-}
-
-#header {
-  flex-direction: row-reverse;
-  font-size: 1.25rem;
 }
